@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Pro Ledger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="coming-soon-container">
+    <h1>Website Coming Soon</h1>
+    <p>Our website is under construction. Please contact us for more details:</p>
+    <p>Email: <a href="mailto:proledgerau@gmail.com">proledgerau@gmail.com</a></p>
+    <p>Phone: <a href="tel:0404488784">0404 488 784</a></p>
+</div>
+
+<footer>
+    <p>© 2026 Pro Ledger</p>
+</footer>
+
+</body>
+</html>
