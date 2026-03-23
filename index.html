@@ -9,14 +9,58 @@
 <body>
 
 <div class="coming-soon-container">
-    <h1>Website Coming Soon</h1>
-    <p>Our website is under construction. Please contact us for more details:</p>
+    <h1>Pro Ledger</h1>
+    <h2>Website Coming Soon</h2>
+
+    <p>
+        Pro Ledger is a professional accounting and bookkeeping service provider based in Australia. 
+        We specialize in Xero accounting, payroll management, BAS/IAS lodgements, and financial reporting 
+        tailored for small and medium businesses.
+    </p>
+
+    <p>
+        Our goal is to simplify your finances so you can focus on growing your business. 
+        Whether you're a startup or an established company, we provide reliable, accurate, 
+        and affordable accounting solutions.
+    </p>
+
+    <p><strong>Contact us directly or submit your requirements below:</strong></p>
+
+    <!-- Contact Form -->
+    <form action="mailto:proledgerau@gmail.com" method="POST" enctype="text/plain">
+        
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="Name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="Email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="Phone"><br><br>
+
+        <label for="service">Service Required:</label><br>
+        <select id="service" name="Service">
+            <option>Bookkeeping</option>
+            <option>Payroll</option>
+            <option>Xero Setup</option>
+            <option>BAS/IAS</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label for="message">Your Requirements:</label><br>
+        <textarea id="message" name="Message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send Request</button>
+    </form>
+
+    <br>
+
     <p>Email: <a href="mailto:proledgerau@gmail.com">proledgerau@gmail.com</a></p>
     <p>Phone: <a href="tel:0404488784">0404 488 784</a></p>
 </div>
 
 <footer>
-    <p>© 2026 Pro Ledger</p>
+    <p>© 2026 Pro Ledger | Accounting & Bookkeeping Services</p>
 </footer>
 
 </body>
