@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon - ProLedger</title>
+    <title>Pro Ledger - Accounting Services</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="coming-soon-container">
     <h1>Pro Ledger</h1>
-    <h2>Website Coming Soon</h2>
+    <h2>Accounting & Bookkeeping Services</h2>
 
     <p>
         Pro Ledger is a professional accounting and bookkeeping service provider based in Australia. 
@@ -19,27 +19,64 @@
     </p>
 
     <p>
-        Our goal is to simplify your finances so you can focus on growing your business. 
-        Whether you're a startup or an established company, we provide reliable, accurate, 
-        and affordable accounting solutions.
+        Our goal is to simplify your finances so you can focus on growing your business.
     </p>
 
+    <!-- BLOG SECTION -->
+    <hr>
+    <h2>Latest Blog</h2>
+
+    <div class="blog-container">
+
+        <div class="blog-post">
+            <h3>How Xero Helps Small Businesses in Australia</h3>
+            <p class="date">March 2026</p>
+            <p>
+                Xero is one of the most powerful cloud accounting tools for small businesses. 
+                It helps manage invoicing, payroll, bank reconciliation, and real-time reporting.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h3>What is BAS and Why It Matters?</h3>
+            <p class="date">March 2026</p>
+            <p>
+                BAS (Business Activity Statement) is essential for Australian businesses to report GST, PAYG, 
+                and other tax obligations to the ATO.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-post">
+            <h3>5 Common Bookkeeping Mistakes to Avoid</h3>
+            <p class="date">March 2026</p>
+            <p>
+                Avoid errors like mixing personal and business expenses, not reconciling accounts, 
+                and missing deadlines.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+    </div>
+
+    <!-- CONTACT FORM -->
+    <hr>
     <p><strong>Contact us directly or submit your requirements below:</strong></p>
 
-    <!-- Contact Form -->
     <form action="mailto:proledgerau@gmail.com" method="POST" enctype="text/plain">
         
-        <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="Name" required><br><br>
+        <label>Full Name:</label><br>
+        <input type="text" name="Name" required><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="Email" required><br><br>
+        <label>Email:</label><br>
+        <input type="email" name="Email" required><br><br>
 
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="Phone"><br><br>
+        <label>Phone Number:</label><br>
+        <input type="tel" name="Phone"><br><br>
 
-        <label for="service">Service Required:</label><br>
-        <select id="service" name="Service">
+        <label>Service Required:</label><br>
+        <select name="Service">
             <option>Bookkeeping</option>
             <option>Payroll</option>
             <option>Xero Setup</option>
@@ -47,8 +84,8 @@
             <option>Other</option>
         </select><br><br>
 
-        <label for="message">Your Requirements:</label><br>
-        <textarea id="message" name="Message" rows="5" required></textarea><br><br>
+        <label>Your Requirements:</label><br>
+        <textarea name="Message" rows="5" required></textarea><br><br>
 
         <button type="submit">Send Request</button>
     </form>
