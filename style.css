@@ -9,23 +9,74 @@ body {
     min-height: 100vh;
 }
 
-/* Main coming soon container */
+/* Main container */
 .coming-soon-container {
     background: #2c3e50;
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 60px 20px;
     flex: 1;
 }
 
+/* Headings */
 .coming-soon-container h1 {
-    font-size: 48px;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.coming-soon-container h2 {
+    font-size: 26px;
     margin-bottom: 20px;
 }
 
 .coming-soon-container p {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0;
+}
+
+/* FORM STYLING */
+form {
+    background: white;
+    color: black;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Labels */
+form label {
+    font-weight: bold;
+}
+
+/* Inputs */
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1a252f;
 }
 
 /* Footer */
